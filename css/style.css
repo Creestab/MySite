@@ -1,0 +1,45 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+.navbar{
+  background-color: red;
+}
+
+/* Container for skill bars */
+.bar {
+    width: 100%; /* Full width */
+    height: 22px;
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    height: 22px;
+    font-size: 18px;
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 22px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.excel {width: 90%; background-color: #207347;}
+.youtube {width: 85%; background-color: #FE0000;}
+.facebook {width: 80%; background-color: #3B5998;}
+.maya {width: 75%; background-color: #007272;}
+.word {width: 75%; background-color: #2C5898;}
+.photoshop {width: 70%; background-color: #00C8FF;}
+.powerpoint {width: 75%; background-color: #D04727;}
+.premier {width: 70%; background-color: #EA77FF;}
+.eclipse {width: 60%; background-color: #322660;}
+.github {width: 50%; background-color: #24292E;}
+.matlab {width: 40%; background-color: #ED823C;}
+
+.english {width: 90%; background-color: #00B300;}
+.java {width: 70%; background-color: #62B300;}
+.spanish {width: 65%; background-color: #84B300;}
+.html {width: 55%; background-color: #AAB300;}
+.js {width: 50%; background-color: #D0B300;}
+.c {width: 40%; background-color: #FBB300;}
+.xml {width: 30%; background-color: #FB9300;}
+.cpp {width: 30%; background-color: #FB9300;}
+.prolog {width: 25%; background-color: #FB7100;}
+.scheme {width: 20%; background-color: #FB5300;}
