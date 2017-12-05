@@ -1,8 +1,16 @@
 /* Make sure that padding behaves as expected */
 * {box-sizing:border-box}
 
+body{
+  background-color: #1E1F21;
+}
+
 .navbar{
   background-color: red;
+}
+
+.fa-inverse{
+  color: #1E1F21;
 }
 
 /* Container for skill bars */
