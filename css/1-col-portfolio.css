@@ -17,3 +17,20 @@ body {
 .pagination {
   margin-bottom: 15px;
 }
+
+h1{
+  font-size: 3rem;
+  color: #C12828 !important;
+}
+
+small{
+  font-size: 2rem;
+  color: #EFEDF4 !important
+}
+
+.navbar{
+  background-color: #C12828;
+  border-style: solid;
+  border-radius: .5px;
+  border-color: #CD5353;
+}
