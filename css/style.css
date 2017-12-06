@@ -32,7 +32,7 @@ body{
 .word {width: 75%; background-color: #2C5898;}
 .photoshop {width: 70%; background-color: #00C8FF;}
 .powerpoint {width: 75%; background-color: #D04727;}
-.premier {width: 70%; background-color: #EA77FF;}
+.premier {width: 65%; background-color: #EA77FF;}
 .eclipse {width: 60%; background-color: #322660;}
 .github {width: 50%; background-color: #24292E;}
 .matlab {width: 40%; background-color: #ED823C;}
@@ -40,7 +40,7 @@ body{
 .english {width: 90%; background-color: #00B300;}
 .java {width: 70%; background-color: #62B300;}
 .spanish {width: 65%; background-color: #84B300;}
-.html {width: 55%; background-color: #AAB300;}
+.html {width: 60%; background-color: #AAB300;}
 .js {width: 50%; background-color: #D0B300;}
 .c {width: 40%; background-color: #FBB300;}
 .xml {width: 30%; background-color: #FB9300;}
@@ -49,8 +49,10 @@ body{
 .scheme {width: 20%; background-color: #FB5300;}
 
 .modal-content{
+  align-self: center;
   align-content: center;
   align-items: center;
+  width: 900px;
 }
 
 .btn-primary {
@@ -74,4 +76,9 @@ h6 {
 
 h4.modal-header, .modal-body{
   color: #1E1F21 !important;
+}
+
+img.modal-img{
+  max-width: 800px;
+  align-content: center;
 }
